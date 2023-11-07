@@ -24,7 +24,7 @@
             extend: {
               colors: {
                 clifford: '#da373d',
-                'bike-primary': '#E76F51'
+                'bike-primary': '#E76F51',
               }
             }
           }
@@ -76,6 +76,52 @@
                 </div>
             </div>
         </nav>
+
+        <!-- slider or carousel begins -->
+        <div class="carousel w-full lg:h-[500px] bg-stone-300">
+            <!-- slide 1 -->
+            <div id="slide1" class="carousel-item relative w-full">
+              <div class="flex  flex-col lg:flex-row-reverse gap-20 p-4 lg:p-24">
+                <div class="flex-1">
+                    <img src="/images/slider/bike1.png" class="w-[400px]" />
+                </div>
+                <div class="flex-1 space-y-7">
+                    <h2 class="text-6xl font-black">Ride r15 <br>with smile</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus odit vero eum distinctio illum! Nisi nesciunt neque possimus tempore fuga?</p>
+                    
+                    <button class="btn bg-bike-primary">Buy Now</button>
+                </div>
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <!-- slide 2 -->
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="/images/slider/bike3.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <!-- slide 3 -->
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="/images/slider/bike2.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <!-- slide 4 -->
+            <div id="slide4" class="carousel-item relative w-full">
+              <img src="/images/slider/bike3.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
 
     </header>
     <main class="md:container md:mx-auto"></main>
